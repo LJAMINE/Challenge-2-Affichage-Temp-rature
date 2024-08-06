@@ -10,7 +10,22 @@ int main()
 
     c=(t - 32)/ 1.8;
 
-    printf("the result in Celsius  is %f",c);
+    printf("the result in Celsius  is %f\n",c);
+
+    if (c>40){
+            printf("tres chaud \n");
+
+    }else if(c>30) {
+    printf("  chaud \n");
+
+    }else if (c>20){
+
+    printf(" froid \n");
+    }else if (c>0){
+
+    printf(" tres froid \n");
+    }
+
 
     return 0;
 }
